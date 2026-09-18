@@ -1,7 +1,7 @@
 import time, sys
 
-def slowan(text, delay):
-    "The first parameter is the text itself, and the second is the typing speed; example: `slowan('hello,world!', 0.5)`."
+def slowam(text, delay):
+    "The first parameter is the text itself, and the second is the typing speed; example: `slowam('hello,world!', 0.5)`."
     if isinstance(text,int):
             print("[ERROR] You cannot enter numbers without ''!")
             sys.exit(1)
